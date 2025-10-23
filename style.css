@@ -1,0 +1,26 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.my-box {
+    width: 1500px;
+    height: 800px;
+    margin: 0 auto; /*aligns the box horizontally*/
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+
+}
+.inner-box {
+    width:1450px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rosybrown ;
+    border: 1px;
+    margin: 10px;
+    position: absolute;
+}
